@@ -1,0 +1,97 @@
+{
+    "backdrop_path": "/path.jpg",
+    "created_by": [
+        {
+            "id": 237053,
+            "credit_id": "creditId",
+            "name": "name",
+            "gender": 2,
+            "profile_path": "/path.jpg"
+        },
+        {
+            "id": 1167458,
+            "credit_id": "creditId",
+            "name": "name",
+            "gender": 2,
+            "profile_path": "/path.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2022-08-21",
+    "genres": [
+        {
+            "id":10765,
+            "name":"Sci-Fi & Fantasy"
+        },
+        {
+            "id":18,
+            "name":"Drama"
+        },
+        {
+            "id":10759,
+            "name":"Action & Adventure"
+        }
+    ],
+    "homepage": "https://www.hbo.com/house-of-the-dragon",
+    "id": 94997,
+    "in_production": true,
+    "languages": [
+        "en",
+        "sk"
+    ],
+    "last_air_date": "2022-10-23",
+    "last_episode_to_air":{
+        "air_date":"2022-10-23",
+        "episode_number":10,
+        "id":3846982,
+        "name":"name",
+        "overview":"overview",
+        "production_code":"",
+        "runtime":57,
+        "season_number":1,
+        "show_id":94997,
+        "still_path":"/path.jpg",
+        "vote_average":8.3,
+        "vote_count":27
+    },
+    "name": "name",
+    "next_episode_to_air": null,
+    "networks": [],
+    "number_of_episodes": 10,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "originalName",
+    "overview": "overview",
+    "popularity": 1455.627,
+    "poster_path": "/path.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1":"US",
+            "name":"United States of America"
+        }
+    ],
+    "seasons": [],
+    "spoken_languages": [
+        {
+            "english_name":"English",
+            "iso_639_1":"en",
+            "name":"English"
+        },
+        {
+            "english_name":"Slovak",
+            "iso_639_1":"sk",
+            "name":"name"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline":"Fire and blood.",
+    "type":"Scripted",
+    "vote_average":8.511,
+    "vote_count":2414
+}
