@@ -1,26 +1,38 @@
+import 'package:bloc_test/bloc_test.dart';
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/movie/movie.dart';
+import 'package:ditonton/presentation/bloc/movies/movie_detail/movie_detail_bloc.dart';
+import 'package:ditonton/presentation/bloc/movies/movie_detail/movie_detail_event.dart';
+import 'package:ditonton/presentation/bloc/movies/movie_detail/movie_detail_state.dart';
 import 'package:ditonton/presentation/pages/movies/movie_detail_page.dart';
-import 'package:ditonton/presentation/provider/movie/movie_detail_notifier.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mockito/annotations.dart';
-import 'package:mockito/mockito.dart';
-import 'package:provider/provider.dart';
+import 'package:mocktail/mocktail.dart';
 import '../../../dummy_data/movie/movie_dummy_objects.dart';
-import 'movie_detail_page_test.mocks.dart';
 
-@GenerateMocks([MovieDetailNotifier])
+class MovieDetailEventFake extends Fake implements MovieDetailEvent {}
+
+class MovieDetailStateFake extends Fake implements MovieDetailState {}
+
+class MockMovieDetailBloc extends MockBloc<MovieDetailEvent, MovieDetailState>
+    implements MovieDetailBloc {}
+
 void main() {
-  late MockMovieDetailNotifier mockNotifier;
+  late MockMovieDetailBloc mockMovieDetailBloc;
+
+  setUpAll(() {
+    registerFallbackValue(MovieDetailEventFake());
+    registerFallbackValue(MovieDetailStateFake());
+  });
 
   setUp(() {
-    mockNotifier = MockMovieDetailNotifier();
+    mockMovieDetailBloc = MockMovieDetailBloc();
   });
 
   Widget _makeTestableWidget(Widget body) {
-    return ChangeNotifierProvider<MovieDetailNotifier>.value(
-      value: mockNotifier,
+    return BlocProvider<MovieDetailBloc>(
+      create: (context) => mockMovieDetailBloc,
       child: MaterialApp(
         home: body,
       ),
@@ -28,7 +40,7 @@ void main() {
   }
 
   testWidgets(
-      'Watchlist button should display add icon when movie not added to watchlist',
+      'when application is loading should be display circular loading progress',
       (WidgetTester tester) async {
     when(mockNotifier.movieState).thenReturn(RequestState.Loaded);
     when(mockNotifier.movie).thenReturn(testMovieDetail);

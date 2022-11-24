@@ -1,26 +1,25 @@
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/tv/tv_show.dart';
+import 'package:ditonton/presentation/bloc/tv/now_playing_tv_shows/now_playing_tv_shows_bloc.dart';
 import 'package:ditonton/presentation/pages/tv_shows/now_playing_tv_show_page.dart';
-import 'package:ditonton/presentation/provider/tv/now_playing_tv_notifier.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:provider/provider.dart';
 
-import 'now_playing_tv_show_page_test.mocks.dart';
-
-@GenerateMocks([NowPlayingTvNotifier])
+@GenerateMocks([NowPlayingTvShowsBloc])
 void main() {
-  late MockNowPlayingTvNotifier mockNotifier;
+  late MockNowPlayingTvShowsBloc mockBloc;
 
   setUp(() {
-    mockNotifier = MockNowPlayingTvNotifier();
+    mockBloc = MockNowPlayingTvShowsBloc();
   });
 
   Widget _makeTestableWidget(Widget body) {
-    return ChangeNotifierProvider<NowPlayingTvNotifier>.value(
-      value: mockNotifier,
+    return BlocProvider<NowPlayingTvShowsBloc>(
+      create: (context) => mockBloc,
       child: MaterialApp(
         home: body,
       ),

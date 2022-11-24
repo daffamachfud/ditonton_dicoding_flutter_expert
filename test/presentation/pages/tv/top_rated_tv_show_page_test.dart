@@ -1,26 +1,25 @@
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/movie/movie.dart';
+import 'package:ditonton/presentation/bloc/tv/top_rated_tv_shows/top_rated_tv_shows_bloc.dart';
 import 'package:ditonton/presentation/pages/movies/top_rated_movies_page.dart';
-import 'package:ditonton/presentation/provider/movie/top_rated_movies_notifier.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:provider/provider.dart';
 
-import '../movie/top_rated_movies_page_test.mocks.dart';
-
-@GenerateMocks([TopRatedMoviesNotifier])
+@GenerateMocks([TopRatedTvShowsBloc])
 void main() {
-  late MockTopRatedMoviesNotifier mockNotifier;
+  late MockTopRatedTvShowsBloc mockBloc;
 
   setUp(() {
-    mockNotifier = MockTopRatedMoviesNotifier();
+    mockBloc = MockTopRatedTvShowsBloc();
   });
 
   Widget _makeTestableWidget(Widget body) {
-    return ChangeNotifierProvider<TopRatedMoviesNotifier>.value(
-      value: mockNotifier,
+    return BlocProvider<TopRatedTvShowsBloc>(
+      create: (context) => mockBloc,
       child: MaterialApp(
         home: body,
       ),

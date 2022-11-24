@@ -1,26 +1,25 @@
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/movie/movie.dart';
+import 'package:ditonton/presentation/bloc/movies/now_playing_movies/now_playing_movies_bloc.dart';
 import 'package:ditonton/presentation/pages/movies/now_playing_movie_page.dart';
-import 'package:ditonton/presentation/provider/movie/now_playing_movie_notifier.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:provider/provider.dart';
 
-import 'now_playing_movies_page_test.mocks.dart';
-
-@GenerateMocks([NowPlayingMovieNotifier])
+@GenerateMocks([NowPlayingMoviesBloc])
 void main() {
-  late MockNowPlayingMovieNotifier mockNotifier;
+  late MockNowPlayingMoviesBloc mockNowPlayingMoviesBloc;
 
   setUp(() {
-    mockNotifier = MockNowPlayingMovieNotifier();
+    mockNowPlayingMoviesBloc = MockNowPlayingMoviesBloc();
   });
 
   Widget _makeTestableWidget(Widget body) {
-    return ChangeNotifierProvider<NowPlayingMovieNotifier>.value(
-      value: mockNotifier,
+    return BlocProvider<NowPlayingMoviesBloc>(
+      create: (context) => mockNowPlayingMoviesBloc,
       child: MaterialApp(
         home: body,
       ),

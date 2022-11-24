@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af121350-e0bd-4cd6-9c88-f4fd776335bb" name="Changes" comment="Add versioned filed">
+      <change afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ditonton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.dart_tool/package_config_subset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.dart_tool/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/about.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/lib/about.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates/certificates.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.dart_tool/package_config_subset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.dart_tool/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/core.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/styles/colors.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/styles/text_styles.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/utils/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/utils/routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/utils/ssl/http_ssl_pinning.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/lib/utils/ssl/shared.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.dart_tool/package_config_subset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.dart_tool/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/movie.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/movie_detail/movie_detail_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/movie_detail/movie_detail_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/movie_detail/movie_detail_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/movies_recommendation/movie_recommendation_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/movies_recommendation/movie_recommendation_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/movies_recommendation/movie_recommendation_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/now_playing_movies/now_playing_movies_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/now_playing_movies/now_playing_movies_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/now_playing_movies/now_playing_movies_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/popular_movies/popular_movies_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/popular_movies/popular_movies_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/popular_movies/popular_movies_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/top_rated_movies/top_rated_movies_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/top_rated_movies/top_rated_movies_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/top_rated_movies/top_rated_movies_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/watchlist_movies/watchlist_movies_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/watchlist_movies/watchlist_movies_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/lib/presentation/bloc/watchlist_movies/watchlist_movies_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.dart_tool/package_config_subset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.dart_tool/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/presentation/bloc/search_movies/search_movies_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/presentation/bloc/search_movies/search_movies_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/presentation/bloc/search_movies/search_movies_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/presentation/bloc/search_tv_shows/search_tv_shows_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/presentation/bloc/search_tv_shows/search_tv_shows_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/presentation/bloc/search_tv_shows/search_tv_shows_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/lib/search.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/movie_detail_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/movie_detail_bloc_test.mocks.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/movie_recommendation_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/now_playing_movies_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/popular_movies_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/search_movies_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/top_rated_movies_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/watchlist_movies_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/now_playing_tv_shows_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/popular_tv_shows_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/search_tv_shows_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/top_rated_tv_shows_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/tv_show_detail_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/tv_show_detail_bloc_test.mocks.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/watchlist_tv_shows_bloc_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.dart_tool/package_config_subset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.dart_tool/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/now_playing_tv_shows/now_playing_tv_shows_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/now_playing_tv_shows/now_playing_tv_shows_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/now_playing_tv_shows/now_playing_tv_shows_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/popular_tv_shows/popular_tv_shows_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/popular_tv_shows/popular_tv_shows_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/popular_tv_shows/popular_tv_shows_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/top_rated_tv_shows/top_rated_tv_shows_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/top_rated_tv_shows/top_rated_tv_shows_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/top_rated_tv_shows/top_rated_tv_shows_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/tv_show_detail/tv_show_detail_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/tv_show_detail/tv_show_detail_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/tv_show_detail/tv_show_detail_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/tv_show_recommendation/tv_show_recommendation_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/tv_show_recommendation/tv_show_recommendation_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/tv_show_recommendation/tv_show_recommendation_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/watchlist_tv_shows/watchlist_tv_shows_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/watchlist_tv_shows/watchlist_tv_shows_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/presentation/bloc/watchlist_tv_shows/watchlist_tv_shows_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/lib/tv.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/tv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/constants.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/exception.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/utils/exception.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/failure.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/utils/failure.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/state_enum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/utils/state_enum.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/utils/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/datasources/db/database_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/data/datasources/db/database_helper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/datasources/movie/movie_local_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/datasources/movie_local_data_source.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/datasources/movie/movie_remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/datasources/movie_remote_data_source.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/datasources/tv/tv_show_local_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/datasources/tv_show_local_data_source.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/datasources/tv/tv_show_remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/datasources/tv_show_remote_data_source.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/genre_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/data/models/genre_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/movie/movie_detail_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/models/movie_detail_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/movie/movie_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/models/movie_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/movie/movie_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/models/movie_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/movie/movie_table.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/models/movie_table.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/tv/tv_show_detail_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/models/tv_show_detail_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/tv/tv_show_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/models/tv_show_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/tv/tv_show_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/models/tv_show_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/models/tv/tv_show_table.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/models/tv_show_table.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/repositories/movie_repository_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/data/repositories/movie_repository_impl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/repositories/tv_show_repository_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/data/repositories/tv_show_repository_impl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/entities/genre.dart" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/domain/entities/genre.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/entities/movie/movie.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/entities/movie.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/entities/movie/movie_detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/entities/movie_detail.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/entities/tv/tv_show.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/entities/tv_show.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/entities/tv/tv_show_detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/entities/tv_show_detail.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/repositories/movie_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/repositories/movie_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/repositories/tv_show_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/repositories/tv_show_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_movie_detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_movie_detail.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_movie_recommendations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_movie_recommendations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_now_playing_movies.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_now_playing_movies.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_popular_movies.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_popular_movies.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_top_rated_movies.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_top_rated_movies.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_watchlist_movies.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_watchlist_movies.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/get_watchlist_status.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/get_watchlist_movies_status.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/remove_watchlist.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/remove_movie_watchlist.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/save_watchlist.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/domain/usecases/save_movie_watchlist.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/movie/search_movies.dart" beforeDir="false" afterPath="$PROJECT_DIR$/search/lib/domain/usecases/movie/search_movies.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_now_playing_tvs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_now_playing_tvs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_popular_tvs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_popular_tvs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_top_rated_tvs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_top_rated_tvs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_tv_recommendations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_tv_recommendations.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_tv_show_detail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_tv_show_detail.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_watchlist_status.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_watchlist_tv_status.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/get_watchlist_tvs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/get_watchlist_tvs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/remove_tv_watchlist.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/remove_tv_watchlist.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/save_tv_watchlist.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/domain/usecases/save_tv_watchlist.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/tv/search_tvs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/search/lib/domain/usecases/tv/search_tvs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/injection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/injection.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/about_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/about/lib/about_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/home_movie_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/pages/home_movie_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/movie_detail_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/pages/movie_detail_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/movie_search_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/search/lib/presentation/pages/movie_search_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/now_playing_movie_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/pages/now_playing_movie_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/popular_movies_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/pages/popular_movies_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/top_rated_movies_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/pages/top_rated_movies_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/movies/watchlist_movies_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/pages/watchlist_movies_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/home_tv_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/home_tv_show_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/now_playing_tv_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/now_playing_tv_show_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/popular_tv_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/popular_tv_show_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/top_rated_tv_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/top_rated_tv_show_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/tv_show_detail_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/tv_show_detail_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/tv_show_search_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/search/lib/presentation/pages/tv_show_search_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/tv_shows/watchlist_tv_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/watchlist_tv_show_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/movie_detail_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/movie_list_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/movie_search_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/now_playing_movie_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/popular_movies_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/top_rated_movies_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/movie/watchlist_movie_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/now_playing_tv_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/popular_tv_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/top_rated_tv_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/tv_detail_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/tv_search_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/tv_shows_list_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/provider/tv/watchlist_tv_notifier.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/movie_card_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/lib/presentation/widgets/movie_card_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/widgets/tv_show_card_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/widgets/tv_show_card_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/movie_detail_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/movie_detail_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/movie_detail_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/movie_detail_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/now_playing_movies_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/now_playing_movies_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/now_playing_movies_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/now_playing_movies_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/popular_movies_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/popular_movies_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/popular_movies_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/popular_movies_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/top_rated_movies_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/top_rated_movies_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/movie/top_rated_movies_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/movie/top_rated_movies_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/now_playing_tv_show_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/now_playing_tv_show_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/now_playing_tv_show_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/now_playing_tv_show_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/popular_tv_show_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/popular_tv_show_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/popular_tv_show_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/popular_tv_show_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/top_rated_tv_show_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/top_rated_tv_show_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/top_rated_tv_show_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/top_rated_tv_show_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/tv_show_detail_page_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/tv_show_detail_page_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/pages/tv/tv_show_detail_page_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/pages/tv/tv_show_detail_page_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/movie_detail_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/movie_detail_notifier_test.mocks.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/movie_list_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/movie_list_notifier_test.mocks.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/movie_search_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/movie_search_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/search_movies_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/now_playing_movies_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/now_playing_movies_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/now_playing_movies_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/popular_movies_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/popular_movies_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/popular_movies_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/top_rated_movies_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/top_rated_movies_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/top_rated_movies_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/watchlist_movie_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/movie/watchlist_movie_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/movies/watchlist_movies_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/now_playing_tv_show_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/now_playing_tv_show_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/now_playing_tv_shows_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/popular_tv_show_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/popular_tv_show_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/popular_tv_shows_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/top_rated_tv_show_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/top_rated_tv_show_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/top_rated_tv_shows_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/tv_show_detail_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/tv_show_detail_notifier_test.mocks.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/tv_show_list_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/tv_show_list_notifier_test.mocks.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/tv_show_search_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/tv_show_search_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/search_tv_shows_bloc_test.mocks.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/watchlist_tv_show_notifier_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/presentation/provider/tv/watchlist_tv_show_notifier_test.mocks.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/presentation/bloc/tv/watchlist_tv_shows_bloc_test.mocks.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="submit_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HS5OTvu7TesD6SFb29PmT5ZK5Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/certificates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Dart" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dicoding Flutter Expert\ditonton\certificates" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\tv\lib\presentation\bloc" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\lib\presentation\bloc\movies\movies_recommendation" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\test\presentation\bloc\tv" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\test\presentation\bloc\movies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dicoding Flutter Expert\ditonton\tv\lib\presentation\widgets" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\tv\lib\presentation\pages" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\tv\lib\presentation\bloc" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\tv\lib\domain\usecases" />
+      <recent name="C:\Dicoding Flutter Expert\ditonton\tv\lib\domain\repositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should be a subclass of Tv show entity" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should be a subclass of Tv show entity" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/models/tv/tv_show_model_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should return a JSON map containing proper data" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return a JSON map containing proper data" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/models/tv/tv_show_response_model_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should return a valid model from JSON" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return a valid model from JSON" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/models/tv/tv_show_response_model_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should return tv show data when the call to remote data source is successful" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return tv show data when the call to remote data source is successful" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/repositories/tv/tv_show_repository_impl_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should return tv show detail when the response code is 201" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="should return tv show detail when the response code is 201" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/datasources/tv/tv_show_remote_data_source_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter Test.should return tv show detail when the response code is 201" />
+        <item itemvalue="Flutter Test.should return tv show data when the call to remote data source is successful" />
+        <item itemvalue="Flutter Test.should return a valid model from JSON" />
+        <item itemvalue="Flutter Test.should return a JSON map containing proper data" />
+        <item itemvalue="Flutter Test.should be a subclass of Tv show entity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af121350-e0bd-4cd6-9c88-f4fd776335bb" name="Changes" comment="" />
+      <created>1668265611854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668265611854</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Submit Proyek awal">
+      <created>1669021996942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669021996942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add versioned filed">
+      <created>1669022035037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669022035037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Submit Proyek awal" />
+    <MESSAGE value="Add versioned filed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add versioned filed" />
+  </component>
+</project>

@@ -1,26 +1,25 @@
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/movie/movie.dart';
+import 'package:ditonton/presentation/bloc/movies/popular_movies/popular_movies_bloc.dart';
 import 'package:ditonton/presentation/pages/movies/popular_movies_page.dart';
-import 'package:ditonton/presentation/provider/movie/popular_movies_notifier.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:provider/provider.dart';
 
-import 'popular_movies_page_test.mocks.dart';
-
-@GenerateMocks([PopularMoviesNotifier])
+@GenerateMocks([PopularMoviesBloc])
 void main() {
-  late MockPopularMoviesNotifier mockNotifier;
+  late MockPopularMoviesBloc mockPopularMoviesBloc;
 
   setUp(() {
-    mockNotifier = MockPopularMoviesNotifier();
+    mockPopularMoviesBloc = MockPopularMoviesBloc();
   });
 
   Widget _makeTestableWidget(Widget body) {
-    return ChangeNotifierProvider<PopularMoviesNotifier>.value(
-      value: mockNotifier,
+    return BlocProvider<PopularMoviesBloc>(
+      create: (context) => mockPopularMoviesBloc,
       child: MaterialApp(
         home: body,
       ),
