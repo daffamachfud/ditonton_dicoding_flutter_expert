@@ -1,7 +1,6 @@
 import 'package:about/about.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:core/core.dart';
-import 'package:core/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie/movie.dart';
@@ -92,8 +91,8 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
             children: [
               _buildSubHeading(
                 title: 'Now Playing',
-                onTap: () => Navigator.pushNamed(
-                    context, NowPlayingMoviePage.routeName),
+                onTap: () =>
+                    Navigator.pushNamed(context, NowPlayingMoviePage.routeName),
               ),
               BlocBuilder<NowPlayingMoviesBloc, NowPlayingMoviesState>(
                 builder: (context, state) {
@@ -107,6 +106,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                   } else if (state is NowPlayingMoviesError) {
                     return Text(
                       state.message,
+                      key: Key('error_message'),
                     );
                   } else {
                     return const Text('Failed');
@@ -130,6 +130,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                   } else if (state is PopularMoviesError) {
                     return Text(
                       state.message,
+                      key: const Key('error_message'),
                     );
                   } else {
                     return const Text('Failed');
@@ -153,6 +154,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                   } else if (state is TopRatedMoviesError) {
                     return Text(
                       state.message,
+                      key: const Key('error_message'),
                     );
                   } else {
                     return const Text('Failed');

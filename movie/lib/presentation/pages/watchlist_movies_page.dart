@@ -42,15 +42,14 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
         title: const Text('Watchlist Movies'),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child:
-          BlocBuilder<WatchlistMoviesBloc,WatchlistMoviesState>(
-            builder: (context,state){
-              if (state is WatchlistMoviesLoading){
+          padding: const EdgeInsets.all(8.0),
+          child: BlocBuilder<WatchlistMoviesBloc, WatchlistMoviesState>(
+            builder: (context, state) {
+              if (state is WatchlistMoviesLoading) {
                 return const Center(
                   child: CircularProgressIndicator(),
                 );
-              }else if (state is WatchlistMoviesHasData){
+              } else if (state is WatchlistMoviesHasData) {
                 final movies = state.result;
                 return ListView.builder(
                   itemBuilder: (context, index) {
@@ -59,22 +58,22 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
                   },
                   itemCount: movies.length,
                 );
-              }else if (state is WatchlistMoviesEmpty){
+              } else if (state is WatchlistMoviesEmpty) {
                 return const Center(
                   child: Text(watchlistEmpty),
                 );
-              }else if (state is WatchlistMoviesError){
+              } else if (state is WatchlistMoviesError) {
                 return Center(
+                  key: const Key('error_message'),
                   child: Text(state.message),
                 );
-              }else{
+              } else {
                 return const Center(
                   child: Text("Failed"),
                 );
               }
             },
-          )
-      ),
+          )),
     );
   }
 
