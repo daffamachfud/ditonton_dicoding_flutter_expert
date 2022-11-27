@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af121350-e0bd-4cd6-9c88-f4fd776335bb" name="Changes" comment="fix test per module">
-      <change afterPath="$PROJECT_DIR$/movie/test/presentation/widget/movie_card_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/test/data/models/tv_show_detail_model_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/test/data/models/tv_show_table_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/test/presentation/pages/home_tv_show_page_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/test/presentation/widget/tv_show_card_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/test/presentation/bloc/now_playing_movies_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/movie/test/presentation/bloc/now_playing_movies_bloc_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/tv/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/lib/presentation/pages/home_tv_show_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/pages/home_tv_show_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/lib/presentation/widgets/tv_show_card_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/lib/presentation/widgets/tv_show_card_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/test/presentation/bloc/now_playing_tv_shows_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/test/presentation/bloc/now_playing_tv_shows_bloc_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/test/presentation/bloc/popular_tv_shows_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/test/presentation/bloc/popular_tv_shows_bloc_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/test/presentation/bloc/top_rated_tv_shows_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tv/test/presentation/bloc/top_rated_tv_shows_bloc_test.dart" afterDir="false" />
+    <list default="true" id="af121350-e0bd-4cd6-9c88-f4fd776335bb" name="Changes" comment="fix sdk ci error">
+      <change afterPath="$PROJECT_DIR$/core/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/test/helpers/test_helper.mocks.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/test/helpers/bloc_test_helper.mocks.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/test/helpers/bloc_test_helper.mocks.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tv/test/helpers/tv_show_test_helper.mocks.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669543136550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix sdk ci error">
+      <created>1669550023452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669550023452</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +183,7 @@
     <MESSAGE value="Add versioned filed" />
     <MESSAGE value="Modular" />
     <MESSAGE value="fix test per module" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix test per module" />
+    <MESSAGE value="fix sdk ci error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix sdk ci error" />
   </component>
 </project>
