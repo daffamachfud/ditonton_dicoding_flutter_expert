@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af121350-e0bd-4cd6-9c88-f4fd776335bb" name="Changes" comment="fix sdk ci error">
-      <change afterPath="$PROJECT_DIR$/core/coverage/lcov.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/test/helpers/test_helper.mocks.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/coverage/lcov.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/coverage/lcov.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/test/helpers/bloc_test_helper.mocks.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/coverage/lcov.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/test/helpers/bloc_test_helper.mocks.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tv/test/helpers/tv_show_test_helper.mocks.dart" afterDir="false" />
-    </list>
+    <list default="true" id="af121350-e0bd-4cd6-9c88-f4fd776335bb" name="Changes" comment="fix ci error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669550023452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix ci error">
+      <created>1669550540817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669550540817</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +182,7 @@
     <MESSAGE value="Modular" />
     <MESSAGE value="fix test per module" />
     <MESSAGE value="fix sdk ci error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix sdk ci error" />
+    <MESSAGE value="fix ci error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix ci error" />
   </component>
 </project>
