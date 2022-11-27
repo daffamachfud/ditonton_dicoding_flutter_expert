@@ -7,7 +7,6 @@ import 'package:tv/tv.dart';
 import '../../dummy_data/tv_show_dummy_objects.dart';
 import '../../helpers/bloc_test_helper.mocks.dart';
 
-
 void main() {
   late MockGetPopularTvs mockGetPopularTvs;
   late PopularTvShowsBloc popularTvShowsBloc;
@@ -52,5 +51,19 @@ void main() {
       PopularTvShowsError('Server Failure'),
     ],
     verify: (bloc) => PopularTvShowsLoading(),
+  );
+
+  blocTest<PopularTvShowsBloc, PopularTvShowsState>(
+    'should emit [Loading, Empty] when data is gotten empty',
+    build: () {
+      when(mockGetPopularTvs.execute())
+          .thenAnswer((_) async => const Right([]));
+      return popularTvShowsBloc;
+    },
+    act: (bloc) => bloc.add(OnPopularTvShowsCalled()),
+    expect: () => [
+      PopularTvShowsLoading(),
+      PopularTvShowsEmpty(),
+    ],
   );
 }

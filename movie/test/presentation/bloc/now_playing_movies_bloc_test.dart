@@ -66,4 +66,6 @@ void main() {
       NowPlayingMoviesEmpty(),
     ],
   );
+
+
 }

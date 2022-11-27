@@ -52,4 +52,18 @@ void main() {
     ],
     verify: (bloc) => TopRatedTvShowsLoading(),
   );
+
+  blocTest<TopRatedTvShowsBloc, TopRatedTvShowsState>(
+    'should emit [Loading, Empty] when data is gotten empty',
+    build: () {
+      when(mockGetTopRatedTvs.execute())
+          .thenAnswer((_) async => const Right([]));
+      return topRatedTvShowsBloc;
+    },
+    act: (bloc) => bloc.add(OnTopRatedTvShowsCalled()),
+    expect: () => [
+      TopRatedTvShowsLoading(),
+      TopRatedTvShowsEmpty(),
+    ],
+  );
 }

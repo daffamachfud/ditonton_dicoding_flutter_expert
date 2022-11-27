@@ -56,7 +56,7 @@ class TvShowCard extends StatelessWidget {
               ),
               child: ClipRRect(
                 borderRadius: const BorderRadius.all(Radius.circular(8)),
-                child: CachedNetworkImage(
+                  child: CachedNetworkImage(
                   imageUrl: '$baseImageUrl${tvShow.posterPath}',
                   width: 80,
                   placeholder: (context, url) => const Center(

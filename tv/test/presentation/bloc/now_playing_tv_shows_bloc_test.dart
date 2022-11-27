@@ -52,4 +52,18 @@ void main() {
     ],
     verify: (bloc) => NowPlayingTvShowsLoading(),
   );
+
+  blocTest<NowPlayingTvShowsBloc, NowPlayingTvShowsState>(
+    'should emit [Loading, Empty] when data is gotten empty',
+    build: () {
+      when(mockGetNowPlayingTvs.execute())
+          .thenAnswer((_) async => const Right([]));
+      return nowPlayingTvShowsBloc;
+    },
+    act: (bloc) => bloc.add(OnNowPlayingTvShowsCalled()),
+    expect: () => [
+      NowPlayingTvShowsLoading(),
+      NowPlayingTvShowsEmpty(),
+    ],
+  );
 }

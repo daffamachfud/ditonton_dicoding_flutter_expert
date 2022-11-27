@@ -109,7 +109,10 @@ class _HomeTvShowPageState extends State<HomeTvShowPage> {
                     final tvShow = state.result;
                     return TvShowList(tvShow);
                   } else if (state is NowPlayingTvShowsError) {
-                    return Text(state.message);
+                    return Text(
+                      state.message,
+                      key: const Key('error_message'),
+                    );
                   } else {
                     return const Text('Failed');
                   }
@@ -130,7 +133,7 @@ class _HomeTvShowPageState extends State<HomeTvShowPage> {
                     final tvShow = state.result;
                     return TvShowList(tvShow);
                   } else if (state is PopularTvShowsError) {
-                    return Text(state.message);
+                    return Text(state.message, key: const Key('error_message'));
                   } else {
                     return const Text('Failed');
                   }
@@ -151,7 +154,7 @@ class _HomeTvShowPageState extends State<HomeTvShowPage> {
                     final tvShow = state.result;
                     return TvShowList(tvShow);
                   } else if (state is TopRatedTvShowsError) {
-                    return Text(state.message);
+                    return Text(state.message, key: const Key('error_message'));
                   } else {
                     return const Text('Failed');
                   }
